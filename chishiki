@@ -18,6 +18,9 @@ syso　ctrlスペースですぐ出せる
 System.out.print();  //エラーになる
 System.out.println();  //エラーにならない！改行だけできる。
 
+/*標準入力*/
+System.in.read();
+args)のあとにthrows java.io.IOException{
 
 
 
