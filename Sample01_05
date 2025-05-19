@@ -1,0 +1,31 @@
+package chap01;
+
+public class Sample01_05 {
+
+	public static void main(String[] args) {
+		System.out.println(1234);	//整数リテラル
+		System.out.println(3.14);	//浮動小数リテラル
+		System.out.println('a');	//文字リテラル
+		System.out.println("Java Programing");	//文字列リテラル
+		
+		System.out.println(false);	//論理値リテラル
+		String s=null;		nullをｓに代入している
+		System.out.println(s);	
+		System.out.println(5_678);	//整数リテラル、10進数
+		System.out.println(0x00_ff);	//整数リテラル　16進数→10進数
+		System.out.println(0b1010_0101);	//整数リテラル　2進数→10進数
+		
+		;
+
+	}
+
+}
+
+/*
+ * 数字は””とかいらない
+ * 1文字は’’、文字列は””
+ * 
+ * 
+ * ctrl　しふと　ｌ　でインデントそろう
+ * 
+ * */
