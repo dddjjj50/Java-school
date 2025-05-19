@@ -1,0 +1,19 @@
+package chap02;
+
+public class Sample10 {
+
+	public static void main(String[] args) throws java.io.IOException{
+		int input;
+		System.out.println("出力の開始");
+		System.out.print("半角数字を入力してください　：　");
+		input = System.in.read();
+		input = Character.digit(input,10);	//10進数に変換
+			//input = Character.digit(System.in.read(),10); でも上記2段と同じ意味。省略ができる
+		System.out.println("入力した数字は"+input+"です。");
+		System.out.println("1出力の終了");
+		
+		
+
+	}
+
+}
