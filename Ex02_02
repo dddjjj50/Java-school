@@ -1,0 +1,22 @@
+package chap02;
+
+public class Ex02 {
+
+	public static void main(String[] args) {
+		int num =10;
+		char cha ='a';
+		String str="xyz";
+		
+		System.out.println(num);
+		System.out.println(num);
+		System.out.println(num);
+		System.out.println(cha);
+		System.out.println(cha);
+		System.out.println(cha);
+		System.out.println(str);
+		System.out.println(str);
+		System.out.println(str);
+
+	}
+
+}
