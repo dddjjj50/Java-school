@@ -1,0 +1,36 @@
+/*最初のおまじない*/
+package chap01;
+public class Sample01 {		
+	public static void main(String[] args) {
+		
+	}
+}
+
+
+
+/*標準出力*/
+System.out.print(表示させたい文字列);
+System.out.println(表示させたい文字列);  //えるえぬｌｎを入れると（）内を表示させたあとに改行
+System.out.print(表示させたい文字列"\n");  //C言語と同じように\nでも改行可能
+syso　ctrlスペースですぐ出せる
+
+/*改行*/
+System.out.print();  //エラーになる
+System.out.println();  //エラーにならない！改行だけできる。
+
+
+
+
+
+/*
+同じようなの作りたいときは別名保存→クラス名を変えるの忘れない
+
+
+
+
+
+
+
+
+
+*/
