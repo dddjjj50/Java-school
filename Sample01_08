@@ -1,0 +1,9 @@
+package chap01;
+
+public class Sample01_08 {
+	public static void main(String[] args) throws java.io.IOException {
+		System.in.read();
+	
+	}
+
+}
