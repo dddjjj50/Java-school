@@ -22,6 +22,11 @@ System.out.println();  //エラーにならない！改行だけできる。
 System.in.read();
 args)のあとにthrows java.io.IOException{
 
+/*文字列のデータ型*/
+データ型　　　　　変更可否　スレッドセーフ　速度
+String　　　　　 変更不可　　安全　　　　　高速
+StringBuilder　　変更可　　 安全じゃない　高速
+StringBuffer　　 変更可　　 安全　　　　　遅め
 
 
 
