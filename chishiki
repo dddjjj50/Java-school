@@ -32,13 +32,26 @@ StringBuffer　　 変更可　　 安全　　　　　遅め
 final データ型 変数名（大文字）;
 変数名＝初期値;
 C言語でいうconst。
-
-
 ■
 同じようなの作りたいときは別名保存→クラス名を変えるの忘れない
 
+■関数のとりこみ
+int input;
+System.out.println("出力の開始");
+System.out.print("半角数字を入力してください　：　");
+input = System.in.read();
+System.out.println("入力した数字は"+input+"です。");
 
+※しかし上記では、1の文字コード「49」が出力されてしまう。
+そこでCharacter.digitを使う。
 
+Character.digit(変数名,10)
+その変数に入ってる値を10進数として理解してください。
+（16進数なら16）
+
+input = System.in.read();
+input = Character.digit(input,10);	//10進数に変換
+//input = Character.digit(System.in.read(),10); でも上記2段と同じ意味。省略ができる
 
 
 
