@@ -1,5 +1,5 @@
 package chap02;
-public class sample05 {
+public class Sample05 {
 	public static void main(String[] args) {
 		int i=123;
 		double d=12.345;
