@@ -1,0 +1,23 @@
+package chap02;
+
+public class Sample06 {
+
+	public static void main(String[] args) {
+		int i1=123,i2,i3;
+		i2=i1;
+		i3=i2;
+		
+		System.out.println(i1);
+		System.out.println(i2);
+		System.out.println(i3);
+		
+		i1=456;
+		i2=i1;
+		
+		System.out.println(i1);
+		System.out.println(i2);
+		System.out.println(i3);
+
+	}
+
+}
