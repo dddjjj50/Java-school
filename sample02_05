@@ -1,0 +1,21 @@
+package chap02;
+public class sample05 {
+	public static void main(String[] args) {
+		int i=123;
+		double d=12.345;
+		char c='a';
+		String s="xyz";
+		boolean b=true;
+		
+		System.out.println(i);
+		System.out.println(d);
+		System.out.println(c);
+		System.out.println(s);
+		System.out.println(b);
+
+	}
+}
+/*
+ * String 文字列のためのデータ型で、あとから代入しなおしたりとかの変更はできない
+ * */
+ */
