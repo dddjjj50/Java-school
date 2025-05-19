@@ -1,0 +1,11 @@
+package chap01;
+
+public class Sample01_09 {
+	public static void main(String[] args) throws java.io.IOException {
+		System.out.println("処理の開始");
+		System.in.read();
+		System.out.println("処理の終了");
+	
+	}
+
+}
