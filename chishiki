@@ -1,4 +1,4 @@
-/*最初のおまじない*/
+■最初のおまじない
 package chap01;
 public class Sample01 {		
 	public static void main(String[] args) {
@@ -8,29 +8,33 @@ public class Sample01 {
 
 
 
-/*標準出力*/
+■標準出力
 System.out.print(表示させたい文字列);
 System.out.println(表示させたい文字列);  //えるえぬｌｎを入れると（）内を表示させたあとに改行
 System.out.print(表示させたい文字列"\n");  //C言語と同じように\nでも改行可能
 syso　ctrlスペースですぐ出せる
 
-/*改行*/
+■改行
 System.out.print();  //エラーになる
 System.out.println();  //エラーにならない！改行だけできる。
 
-/*標準入力*/
+■標準入力
 System.in.read();
 args)のあとにthrows java.io.IOException{
 
-/*文字列のデータ型*/
+■文字列のデータ型
 データ型　　　　　変更可否　スレッドセーフ　速度
 String　　　　　 変更不可　　安全　　　　　高速
 StringBuilder　　変更可　　 安全じゃない　高速
 StringBuffer　　 変更可　　 安全　　　　　遅め
 
+■final変数。代入が1度しかできない。2度目以降でに代入をしようとするとエラーになる。
+final データ型 変数名（大文字）;
+変数名＝初期値;
+C言語でいうconst。
 
 
-/*
+■
 同じようなの作りたいときは別名保存→クラス名を変えるの忘れない
 
 
@@ -41,4 +45,3 @@ StringBuffer　　 変更可　　 安全　　　　　遅め
 
 
 
-*/
