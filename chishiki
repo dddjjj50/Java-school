@@ -14,6 +14,11 @@ System.out.println(表示させたい文字列);  //えるえぬｌｎを入れ�
 System.out.print(表示させたい文字列"\n");  //C言語と同じように\nでも改行可能
 syso　ctrlスペースですぐ出せる
 
+※printfみたいなのも使える。
+System.out.print(("名前: %s, 年齢: %d, 身長: %.2f cm\n", "田中", 25, 175.5);
+
+
+
 ■改行
 System.out.print();  //エラーになる
 System.out.println();  //エラーにならない！改行だけできる。
