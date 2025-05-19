@@ -1,0 +1,10 @@
+package chap01;
+
+public class Ex01_05 {
+
+	public static void main(String[] args) {
+		System.out.print("\n0\n1\n2\n");
+
+	}
+
+}
