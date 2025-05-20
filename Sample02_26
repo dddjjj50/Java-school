@@ -1,0 +1,16 @@
+package chap02;
+
+public class Sample02_26 {
+
+	public static void main(String[] args) {
+		byte b=123;
+		short s=123;
+		char c=123;
+		c=(char)b;
+		c=(char)s;
+		b=(byte)c;
+		s=(short)c;
+
+	}
+
+}
