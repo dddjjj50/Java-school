@@ -1,0 +1,16 @@
+package chap02;
+
+public class Sample02_23 {
+
+	public static void main(String[] args) {
+		int i=123;
+		double d=i;
+		System.out.println(d);
+		
+		
+
+		i=(int)d;
+		System.out.println(i);
+	}
+
+}
