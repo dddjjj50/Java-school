@@ -53,6 +53,7 @@ System.out.println("入力した数字は"+input+"です。");
 Character.digit(変数名,10)
 その変数に入ってる値を10進数として理解してください。
 （16進数なら16）
+文字コードにできなければ-1になる
 
 input = System.in.read();
 input = Character.digit(input,10);	//10進数に変換
