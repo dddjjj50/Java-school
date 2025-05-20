@@ -1,0 +1,29 @@
+package chap02;
+
+public class Ex02_13 {
+
+	public static void main(String[] args) {
+		int num=10;
+		
+		
+		
+		
+		
+		String ans1= ++num>10 && num>=10 ? "正解":"不正解";
+		System.out.println(ans1 +" , "+ num);
+		
+		String ans2= num++>10||num>=10 ? "正解":"不正解";
+		System.out.println(ans2 +" , "+ num);
+		
+		String ans3= ++num>1& num<=10 ? "正解":"不正解";
+		System.out.println(ans3 +" , "+ num);
+		
+		String ans4= num+3>10 | num<=10 ? "正解":"不正解";
+		System.out.println(ans4 +" , "+ num);
+		
+		
+		
+
+	}
+
+}
