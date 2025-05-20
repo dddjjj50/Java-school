@@ -1,0 +1,22 @@
+package chap02;
+
+public class Ex02_12 {
+
+	public static void main(String[] args) {
+		int num=10;
+		
+		String ans1= ++num==10 ? "正解":"不正解";
+		String ans2= num++ <=10 ? "正解":"不正解";
+		String ans3= ++num>10 ? "正解":"不正解";
+		String ans4= num+3!=10 ? "正解":"不正解";
+		String ans5= ++num<=10 ? "正解":"不正解";
+		
+		System.out.println(ans1);
+		System.out.println(ans2);
+		System.out.println(ans3);
+		System.out.println(ans4);
+		System.out.println(ans5);
+
+	}
+
+}
