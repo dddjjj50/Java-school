@@ -1,0 +1,13 @@
+package chap02;
+
+public class Sample02_32 {
+
+	public static void main(String[] args) {
+		int i=10;
+		String ans = i==10 ? "正解":"不正解";
+		
+		System.out.println(ans);
+
+	}
+
+}
