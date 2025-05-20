@@ -1,0 +1,17 @@
+package chap02;
+
+public class Ex02_07 {
+
+	public static void main(String[] args) {
+		int num1=10,num2=20;
+		
+		System.out.print((num1+=10)>(num2-=15));
+		System.out.print(" "+num1);
+		System.out.println(" "+num2);
+		System.out.print((num1/=2)>(num2*=2));
+		System.out.print(" "+num1);
+		System.out.println(" "+num2);
+
+	}
+
+}
