@@ -1,0 +1,20 @@
+package chap02;
+
+public class Sample02_33 {
+
+	public static void main(String[] args) {
+		byte b1=5,b2=12;
+		
+		int i1=b1&b2;
+		int i2=b1|b2;
+		int i3=b1^b2;
+		int i4=~b1;
+		
+		System.out.println("i1の値は、"+i1+"です。");
+		System.out.println("i2の値は、"+i2+"です。");
+		System.out.println("i3の値は、"+i3+"です。");
+		System.out.println("i4の値は、"+i4+"です。");
+
+	}
+
+}
