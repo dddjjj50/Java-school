@@ -1,0 +1,24 @@
+package chap02;
+
+public class Sample02_18 {
+
+	public static void main(String[] args) {
+		int i1=1,i2=2,i3=3,num=4;
+		
+		System.out.println(i1>i2&i3==(num=10));
+		System.out.println(num);
+		System.out.println(i1<i2&&i3==(num=20));
+		System.out.println(num);
+		System.out.println(i1<i2|i3==(num=30));
+		System.out.println(num);
+		System.out.println(i1<i2||i3==(num=40));
+		System.out.println(num);
+		
+		
+		
+		
+		
+		
+	}
+
+}
