@@ -1,0 +1,17 @@
+package chap03;
+
+public class Ex03_11 {
+
+	public static void main(String[] args) {
+	
+		int i=0;
+		if(i>0)
+			System.out.println("i>0");
+			System.out.println("aaaa");
+			System.out.println("end");
+	
+		
+	}
+
+}
+//
