@@ -1,0 +1,17 @@
+package chap03;
+
+public class Sample03_06 {
+
+	public static void main(String[] args) {
+		
+		String str0="abc",str1="abc";
+		
+		//if (str0==str1) メモリのアドレスが同じって意味になる
+		if (str0.equals(str1))
+			System.out.println("同じです");
+		else
+			System.out.println("違います");
+
+	}
+
+}
