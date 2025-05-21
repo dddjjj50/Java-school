@@ -1,0 +1,21 @@
+package chap03;
+
+public class Sample03_03 {
+
+	public static void main(String[] args) {
+		int i;
+		i=(int)(Math.random()*10);
+		System.out.println("i=" +i+ "です。");
+
+		
+		if(i%2==0) {
+			System.out.println("iは偶数です。");
+		}else {
+			System.out.println("iは奇数です。");
+		}
+		System.out.println("終了します。");
+
+
+	}
+
+}
