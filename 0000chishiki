@@ -69,7 +69,32 @@ input = Character.digit(input,10);	//10進数に変換
 int i;
 i=(int)(Math.random()*10);
 
+■フローチャート
+プログラム構文とかは書かない。お客さんとの説明で使うから
+
 Math.random()*11-5　-5～5まで出る
 
+■if文、else ifで終わらすとエラーになる可能性ある
+if文の条件が複数になるときは＆＆もしくは｜｜
 
+■A.equals(B) AとBの内容が同一である。
+A==B　メモリのアドレスが同じって意味になる
+AとBは順不同
 
+■Switch（条件）｛
+case　0：　//コロン
+　　　処理；
+　　　brreak；
+…
+default：  //必須ではない。条件外はなにも処理されなくなる。が、わかりやすくするため記述したほうが〇
+　　　処理；
+　　　brreak；
+｝
+条件の変数に使えるのは
+・byte
+・char
+・short
+・int
+・String
+
+14以降なら、case 1,2,...:って書いてもOK
