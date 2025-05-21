@@ -1,0 +1,27 @@
+package chap03;
+
+public class Ex03_10 {
+
+	public static void main(String[] args) {
+		int i = (int) (Math.random() * 12);
+		System.out.println("i=" + i);
+
+		switch (i) {
+		case 3, 4, 5:
+			System.out.println("春");
+			break;
+		case 6, 7, 8:
+			System.out.println("夏");
+			break;
+		case 9, 10, 11:
+			System.out.println("秋");
+			break;
+		case 12, 1, 2:
+			System.out.println("冬");
+			break;
+
+		}
+
+	}
+
+}
