@@ -1,0 +1,13 @@
+package chap03;
+
+public class Ex03_09 {
+
+	public static void main(String[] args) {
+		int a=1964;
+		
+		if(a>=1989) System.out.println("あなたは平成生まれです。");
+		else if(a<1926) System.out.println("あなたは大先輩です。");
+		else System.out.println("あなたは昭和生まれです。");
+	}
+
+}
