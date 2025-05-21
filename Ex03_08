@@ -1,0 +1,17 @@
+package chap03;
+
+public class Ex03_08 {
+
+	public static void main(String[] args) {
+		int a=(int)(Math.random()*10),
+			b=(int)(Math.random()*10);
+		
+		System.out.println("a=" + a + ",b=" + b  );
+		
+		if(a==b) System.out.println("a==b");
+		else if(a>b) System.out.println("a>b");
+		else System.out.println("a<b");
+
+	}
+
+}
