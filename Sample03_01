@@ -1,0 +1,15 @@
+package chap03;
+
+public class Sample03_01 {
+
+	public static void main(String[] args) {
+		int i=4;
+		if(i%2==0) {
+			System.out.println("iは偶数です。");
+		}
+		System.out.println("終了します。");
+
+
+	}
+
+}
