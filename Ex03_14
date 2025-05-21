@@ -1,0 +1,25 @@
+package chap03;
+
+public class Ex03_14 {
+
+	public static void main(String[] args) {
+		
+		String s="Black";
+		switch(s) {
+		case "White":
+			System.out.println("White");
+			break;
+		case "Black":
+			System.out.println("Black");
+			break;
+		case "Red":
+			System.out.println("Red");
+			break;
+		default:
+			System.out.println("Other");
+			break;
+
+		}
+	}
+
+}
