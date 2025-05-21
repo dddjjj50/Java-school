@@ -1,0 +1,20 @@
+package chap03;
+
+public class Sample03_04 {
+
+	public static void main(String[] args) {
+		int i;
+		i=(int)(Math.random()*10);
+		System.out.println("i=" +i+ "です。");
+
+		
+		if(i%2==0) {
+			System.out.println("iは2の倍数です。");
+			if(i%3==0) System.out.println("iは3の倍数です。");
+		}
+		
+
+
+	}
+
+}
