@@ -1,0 +1,34 @@
+package chap03;
+
+public class Sample03_05 {
+
+	public static void main(String[] args) {
+		int i;
+		i=(int)(Math.random()*10);
+		System.out.println("i=" +i+ "です。");
+
+		//省略形
+		if(i==0) 
+			System.out.println("iは0です。");
+		else if(i%2==0)
+			System.out.println("iは偶数です。");
+		else 
+			System.out.println("iは奇数です。");
+		
+		System.out.println("終了します。");
+		
+		
+		/*　省略してない
+		if(i==0) {
+			System.out.println("iは0です。");
+		}else if(i%2==0) {
+			System.out.println("iは偶数です。");
+		}else {
+			System.out.println("iは奇数です。");
+		}
+		System.out.println("終了します。");
+
+*/
+	}
+
+}
