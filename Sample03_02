@@ -1,0 +1,19 @@
+package chap03;
+
+public class Sample03_02 {
+
+	public static void main(String[] args) {
+		int i;
+		i=(int)(Math.random()*10);
+		System.out.println("i=" +i+ "です。");
+
+		
+		if(i<=5) {
+			System.out.println("iは5以下です。");
+		}
+		System.out.println("終了します。");
+
+
+	}
+
+}
