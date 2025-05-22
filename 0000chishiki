@@ -23,6 +23,11 @@ System.out.println();  //エラーにならない！改行だけできる。
 ■標準入力
 System.in.read();
 args)のあとにthrows java.io.IOException{
+- System.in.read(); は 1バイト (整数値) の入力を読み込む
+- 例えば 'A' を入力すると その ASCII コード (65) が取得される
+- System.in.read() の戻り値は int 型なので、変数に格納できる！
+int ch = System.in.read(); // キーボード入力を1文字読み込む
+
 
 ■文字列のデータ型
 データ型　　　　　変更可否　スレッドセーフ　速度
