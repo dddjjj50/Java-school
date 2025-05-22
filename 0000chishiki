@@ -30,6 +30,9 @@ String　　　　　 変更不可　　安全　　　　　高速
 StringBuilder　　変更可　　 安全じゃない　高速
 StringBuffer　　 変更可　　 安全　　　　　遅め
 
+■指定子
+double　Cでは%lfだけどJavaでは%f
+
 ■final変数。代入が1度しかできない。2度目以降でに代入をしようとするとエラーになる。
 final データ型 変数名（大文字）;
 変数名＝初期値;
