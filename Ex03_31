@@ -1,0 +1,38 @@
+package chap03;
+
+public class Ex03_31 {
+
+	public static void main(String[] args) {
+		int a=(int)(Math.random()*10)+1,
+			b=(int)(Math.random()*10)+1;
+		
+		//大きいほうを底辺wに、小さいほうを高さhに
+		int w,h;
+		if(a>=b) {
+			w=a;
+			h=b;
+		}else {
+			w=b;
+			h=a;
+		}
+				
+		System.out.printf("底辺は%d、高さは%d\n\n",w,h);
+		
+		//底辺は横の＊の数
+		
+		for(int i=0;i<h;i++) {		
+			//System.out.print("*");
+			
+			for(int j=0;j<w;j++) {
+				System.out.print("*");
+			}
+			
+			
+			
+			System.out.println();
+		}
+		
+
+	}
+
+}
