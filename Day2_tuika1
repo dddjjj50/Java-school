@@ -1,0 +1,55 @@
+package kyoyu;
+
+public class Day2_tuika1 {
+
+	public static void main(String[] args) {
+		
+		int n=(int)(Math.random()*1000)+3;		//3~1002までの正乱数を発生させる。
+		int w=2;										//割る数
+			
+		
+		if(n==2) {
+			System.out.printf("%dは素数です。\n",n);
+		}else if(n%2==0) {		//まず偶数か判定する
+			System.out.printf("%dは素数ではありません。\n",n);
+		}else {
+			for(w=3;w<=n;w+=2) {		//3~(n-1)の奇数で割っていく繰り返し。
+				if(n%w==0) {
+					System.out.printf("%dは素数ではありません。\n",n);
+					break;
+				}
+				else if(w==n){
+					System.out.printf("%dは素数です。\n",n);
+					
+				}
+			}
+			
+			
+		}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+	
+
+}
+
+/*
+3～1002まで（1000種類）の正乱数を発生させます。
+その値が素数かそうでないかを判定します。
+
+表示例1）
+644は素数ではありません。
+
+表示例2）
+113は素数です。
+*/
