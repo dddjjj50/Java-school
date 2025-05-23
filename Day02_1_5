@@ -1,0 +1,30 @@
+package kyoyu;
+
+public class Day02_1_5 {
+
+	public static void main(String[] args) {
+		int count =5;
+		System.out.print("カウントダウンを行います。");
+		while(count>=0) {
+			System.out.printf("\n%d秒前",count);
+			count--;
+		}
+		System.out.println("発射！");
+		
+
+	}
+
+}
+/*
+int count = 5とし、５秒前からカウントダウンしていきます。
+０秒前になると、「発射！」と表示します。
+
+（表示例）
+カウントダウンを行います。
+5秒前
+4秒前
+3秒前
+2秒前
+1秒前
+0秒前発射！
+*/
