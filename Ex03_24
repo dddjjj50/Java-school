@@ -1,0 +1,17 @@
+package chap03;
+
+public class Ex03_24 {
+
+	public static void main(String[] args) {
+		int i,num;
+		
+		for(i=1;i<=10;i++) {
+			num=(int)(Math.random()*10)+1;
+			
+			if(num%2==0) System.out.printf("%d回目　%dは2で割り切れます。\n",i,num);
+			else System.out.printf("%d回目　%dは2で割り切れません。\n",i,num);
+		}
+
+	}
+
+}
