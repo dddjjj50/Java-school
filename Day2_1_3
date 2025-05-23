@@ -1,0 +1,53 @@
+package kyoyu;
+
+public class Day2_1_3 {
+
+	public static void main(String[] args) {
+		int month=1,tyokin=1000;
+		
+		while(tyokin<=100000) {
+			System.out.printf("%dか月目 ： %d円\n",month+1,tyokin);
+			month++;
+			tyokin+=1000*month;
+		}
+		System.out.printf("%dか月目 ： %d円\n",month,tyokin);
+		System.out.printf("100000円貯めるのに%dヵ月かかりました。",month);
+		
+		/*
+		for(month=1;month<100;month++) {
+			System.out.printf("%dか月目 ： %d円\n",month,tyokin);
+			tyokin += 1000*(month+1);
+			
+			if(tyokin>=100000) break;
+		}
+		System.out.printf("%dか月目 ： %d円\n",month+1,tyokin);
+		System.out.printf("100000円貯めるのに%dヵ月かかりました。",month+1);
+		*/
+
+	}
+
+}
+
+
+/*毎月貯金をして100000円以上貯めます。
+貯金額は1000円から始めて、毎月1000円ずつ増やしていきます。
+何か月で１０万円以上貯まるかを計算してください。
+
+＜＜実行例＞＞
+1ヵ月目：1000円
+2ヵ月目：3000円
+3ヵ月目：6000円
+4ヵ月目：10000円
+5ヵ月目：15000円
+6ヵ月目：21000円
+7ヵ月目：28000円
+8ヵ月目：36000円
+9ヵ月目：45000円
+10ヵ月目：55000円
+11ヵ月目：66000円
+12ヵ月目：78000円
+13ヵ月目：91000円
+14ヵ月目：105000円
+100000円貯めるのに14ヵ月かかりました。
+
+*/
