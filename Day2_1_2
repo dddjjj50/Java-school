@@ -1,0 +1,31 @@
+package kyoyu;
+
+public class Day2_1_2 {
+
+	public static void main(String[] args) {
+		
+
+		for(int i=2;i<=20;i+=2) {
+			if(i%3!=0) {
+				System.out.println(i);
+			}
+		}
+		
+	}
+
+}
+
+
+/*
+上記と同じく、繰り返し文をつかって2～20の偶数のみ書き出してください。
+ただし、3の倍数は表示しません。
+
+＜＜実行結果＞＞
+2
+4
+8
+10
+14
+16
+20
+*/
