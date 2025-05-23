@@ -1,0 +1,57 @@
+package kyoyu;
+
+public class Day1_level2_2 {
+
+	public static void main(String[] args) {
+		int price = (int) (Math.random() * 13000) + 1;
+		System.out.println("商品は \\" + price + "です。");
+
+		switch ((price-1 )/ 1000) {
+		case 0:
+			System.out.println("千円札1枚で買えます。お釣りは \\" + (1000 - price));
+			break;
+		case 1:
+			System.out.println("二千円札1枚で買えます。お釣りは \\" + (2000 - price));
+			break;
+		case 2, 3, 4:
+			System.out.println("五千円札1枚で買えます。お釣りは \\" + (5000 - price));
+			break;
+		case 5, 6, 7, 8, 9:
+			System.out.println("一万円札1枚で買えます。お釣りは \\" + (10000 - price));
+			break;
+		default:
+			System.out.println("1枚の札では買えません。");
+			break;
+
+		}
+
+	}
+}
+
+/*
+day1.Test03.java
+
+1～13000までの乱数を発生させ、商品代金とします。
+int price = (int)(Math.random() * 13000) + 1;
+
+その商品を1枚の札だけで買えるかどうかを判定します。
+買える場合は釣銭の額も表示します。
+※実行例を参照のこと。
+札の種類は、千円、二千円、五千円、一万円とします。
+
+＜＜実行例①1万円を超える場合＞＞
+商品は10152円です。
+1枚の札では買えません。
+
+＜＜実行例②5790円の場合＞＞
+商品は5790円です。
+一万円札1枚で買えます。お釣りは4210円です。
+
+＜＜実行例③1234円の場合＞＞
+商品は1234円です。
+二千円札1枚で買えます。お釣りは766円です。
+
+＜＜実行例④1000円の場合＞＞
+商品は1000円です。
+千円札1枚で買えます。お釣りは0円です。
+*/
