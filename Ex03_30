@@ -1,0 +1,28 @@
+package chap03;
+
+public class Ex03_30 {
+
+	public static void main(String[] args) {
+		int h=(int)(Math.random()*10)+1,
+			w=(int)(Math.random()*10)+1;
+		
+		System.out.printf("底辺は%d、高さは%d\n\n",h,w);
+		
+		//底辺は横の＊の数
+		
+		for(int i=0;i<w;i++) {		
+			//System.out.print("*");
+			
+			for(int j=0;j<h;j++) {
+				System.out.print("*");
+			}
+			
+			
+			
+			System.out.println();
+		}
+		
+
+	}
+
+}
