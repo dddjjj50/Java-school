@@ -1,0 +1,31 @@
+package kyoyu;
+
+public class Day2_1_4 {
+	public static void main(String[] args) {
+	int num1 = (int) (Math.random() * 10);
+	int num2 = (int) (Math.random() * 10);
+
+	System.out.printf("num1=%d,num2=%d\n",num1,num2);System.out.println("値を入れ替えます。");
+
+	int aaa=num1;
+	num1=num2;
+	num2=aaa;
+
+	System.out.printf("num1=%d,num2=%d\n",num1,num2);
+	}
+
+}
+
+/* 問題分
+int型の変数num1とnum2を宣言して0～9までの正乱数を代入します。
+2つの変数の値を表示します。
+次に2つの変数の値を入れ替えます。
+入れ替えた値を表示します。
+以下のコードのコメント部分を補完して完成させてください。
+
+<ヒント>
+0～9までの正乱数の求め方はday1.Test01を参考にしてください。
+day1.Test01では1～12の正乱数を求めています。
+これを0～9にするにはどうすればいいでしょうか？
+
+*/
