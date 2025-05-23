@@ -1,0 +1,27 @@
+package kyoyu;
+
+public class Day2_2_3 {
+
+	public static void main(String[] args) {
+		for(int a=1;a<=5;a++) {
+			for(int b=1;b<=5;b++) {
+				if(a==2) System.out.print("□");		//System.out.print(a==2 ? "□":"■";
+				else System.out.print("■");
+			}
+			System.out.println();
+		}
+
+	}
+
+}
+/*
+実行例のように四角を表示してください。
+繰り返し文を使うこと。
+
+＜＜実行例＞＞
+■■■■■
+□□□□□
+■■■■■
+■■■■■
+■■■■■
+*/
