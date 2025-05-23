@@ -1,0 +1,19 @@
+package chap03;
+
+public class Sample03_18 {
+
+	public static void main(String[] args) {
+		int ran;
+		
+		for(int i=0;i<=9;i++) {
+			ran=(int)(Math.random()*10)+1;
+			if(ran%2==0) {
+				continue;
+			}
+			System.out.printf("%d回目です　",i);
+			System.out.printf("乱数の値は %d です。\n",ran);
+		}
+
+	}
+
+}
