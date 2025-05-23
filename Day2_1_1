@@ -1,0 +1,33 @@
+package kyoyu;
+
+public class Day2_1_1 {
+
+	public static void main(String[] args) {
+		for(int i=2;i<=20;i++) {
+			if(i%2==0) {
+				System.out.println(i);
+			}
+		}
+
+	}
+
+}
+
+
+/*
+day2.exam.Exam01.java
+
+繰り返し文をつかって2～20の偶数のみ書き出してください。
+
+＜＜実行結果＞＞
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+*/
