@@ -1,0 +1,49 @@
+package kyoyu;
+
+public class Day2_tuika2 {
+
+	public static void main(String[] args) {
+		int n=(int)(Math.random()*1000)+3;		//3~1002までの正乱数を発生させる。
+		int w;										//割る数
+			
+		//素数かどうか判定
+		if(n==2) {		//2を除外
+			System.out.printf("%dは素数です。\n",n);
+		}else if(n%2==0) {		//偶数か判定する
+			System.out.printf("%dは素因数分解すると",n);
+		}else {
+			for(w=3;w<=n;w+=2) {		//3~(n-1)の奇数で割っていく繰り返し。
+				if(n%w==0) {
+					System.out.printf("%dは素因数分解すると",n);
+					break;
+				}
+				else if(w==n){
+					System.out.printf("%dは素数です。\n",n);
+					
+				}
+			}	
+		}
+		//素因数分解していく。
+		while(n%2==0) {		//まず2で割りまくる
+			n/=2;		//2で割って、その商をnに代入。
+			System.out.printf(" 2 * ");		//2で割り切れるなら2を改行なしで表示していく。
+		}	//2で割り切れなくなったらループ抜ける。
+		for(w=3;n%w==0;w++) {		
+			while(n%w==0 || n>w) {
+			n/=w;
+			System.out.printf(" %d * ",w);
+			}
+		}
+	}
+}
+
+/*
+3～1002まで（1000種類）の正乱数を発生させます。
+素因数に分解し、結果を表示します。素数の場合はその旨表示します。
+
+表示例1）
+184を素因数分解すると2 * 2 * 2 * 23です。
+
+表示例2）
+853は素数です。
+*/
