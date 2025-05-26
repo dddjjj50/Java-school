@@ -126,4 +126,5 @@ ex) int num[5];
 for(int i:num){
 	System.out.println(i)
 }
+※0からしか参照できない。逆とかできない。
 
