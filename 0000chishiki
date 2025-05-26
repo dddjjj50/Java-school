@@ -112,5 +112,10 @@ break忘れると処理が続いて行ってしまう。
 ・while文、do～while文の場合　条件式へ移行する
 
 ■配列宣言
-Javaでは int num[5]; ではなく、 int[] num = new int[5]; 
+Javaでは int num[5]; ではなく、 
+・int[] num = new int[5]; 
+・int num[] = new int[5]; 
+左辺の[]は空白に、右辺の[]に要素数を記入
 
+■データ名.lengthで最初の配列宣言の要素数を変更するだけで、あとのコードを変えなくてよくなる。
+ex)　for(int i=0;i<aaa.length;i++) {
