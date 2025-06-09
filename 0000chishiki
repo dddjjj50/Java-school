@@ -166,3 +166,10 @@ toUpperCase()
 toLowerCase()
 trim()
 split()
+
+■
+Localeクラスが含まれているパッケージ：java.utilパッケージ
+数値をフォーマットする；NumberFormatクラス
+日時を扱うクラス：Calendarクラス
+日付をフォーマットする：DateForamatクラス
+数値と日付をフォーマットするクラスが含まれているパッケージ：java.textパッケージ
